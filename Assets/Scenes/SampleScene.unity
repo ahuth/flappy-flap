@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 484228292}
   - component: {fileID: 484228291}
   - component: {fileID: 484228293}
+  - component: {fileID: 484228294}
   m_Layer: 0
   m_Name: bird101
   m_TagString: Untagged
@@ -270,6 +271,18 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &484228294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484228288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35649a8d13a5349f7a31ff68316456ec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0

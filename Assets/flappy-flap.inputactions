@@ -25,6 +25,17 @@
                     "action": "Flap",
                     "isComposite": false,
                     "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "56743659-0c38-4b45-8281-345a35a1c523",
+                    "path": "",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Flap",
+                    "isComposite": false,
+                    "isPartOfComposite": false
                 }
             ]
         },
