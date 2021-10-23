@@ -16,4 +16,10 @@ public class pipe : MonoBehaviour
     void Update()
     {
     }
+
+    void OnBecameInvisible()
+    {
+        enabled = false;
+        Destroy(gameObject);
+    }
 }
