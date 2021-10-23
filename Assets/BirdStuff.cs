@@ -17,6 +17,6 @@ public class BirdStuff : MonoBehaviour
     public void OnFlap()
     {
         Rigidbody2D bird = GetComponent<Rigidbody2D>();
-        bird.velocity = new Vector3(0, 10, 0);
+        bird.velocity = new Vector2(0, 10);
     }
 }
