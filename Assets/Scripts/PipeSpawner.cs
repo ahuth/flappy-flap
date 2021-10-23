@@ -20,6 +20,7 @@ public class PipeSpawner : MonoBehaviour
     {
         // Create a new pipe. The only things moving on the screen are pipes, so we don't need to
         // check whether what actually collided here.
-        Instantiate(pipePrefab, new Vector2(10, 2.5f), Quaternion.identity);
+        float valueY = Random.Range(0f, 5f);
+        Instantiate(pipePrefab, new Vector2(10, valueY), Quaternion.identity);
     }
 }
