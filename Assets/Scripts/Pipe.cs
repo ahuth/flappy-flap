@@ -9,7 +9,7 @@ public class Pipe : MonoBehaviour
     {
         // Move to the left.
         Rigidbody2D pipe = GetComponent<Rigidbody2D>();
-        pipe.velocity = new Vector2(-7, 0);
+        pipe.velocity = new Vector2(-6, 0);
     }
 
     // Update is called once per frame
