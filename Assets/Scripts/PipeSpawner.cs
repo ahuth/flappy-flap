@@ -19,7 +19,7 @@ public class PipeSpawner : MonoBehaviour
     void OnTriggerEnter2D()
     {
         // Create a new pipe. The only things moving on the screen are pipes, so we don't need to
-        // check whether what actually collided here.
+        // check what actually collided here.
         float valueY = Random.Range(0f, 5f);
         Instantiate(pipePrefab, new Vector2(10, valueY), Quaternion.identity);
     }
