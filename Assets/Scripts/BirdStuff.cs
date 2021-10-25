@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class BirdStuff : MonoBehaviour
 {
     public Text scoreText;
+    public SceneSwitcher sceneSwitcher;
     private int score = 0;
 
     // Start is called before the first frame update
@@ -32,5 +33,14 @@ public class BirdStuff : MonoBehaviour
                 scoreText.text = score.ToString();
             }
         }
+    }
+
+    void OnBecameInvisible()
+    {
+        if (sceneSwitcher == null) {
+            // Shouldn't ever hit this case, but do something if we do.
+            Destroy(gameObject);
+        }
+        sceneSwitcher.GotoStart();
     }
 }
