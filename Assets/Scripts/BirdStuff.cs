@@ -1,9 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BirdStuff : MonoBehaviour
 {
+    public Text scoreText;
     private int score = 0;
 
     // Start is called before the first frame update
@@ -26,7 +28,9 @@ public class BirdStuff : MonoBehaviour
     {
         if (collider.name == "pipe_gap") {
             score += 1;
-            Debug.Log("score! " + score);
+            if (scoreText != null) {
+                scoreText.text = score.ToString();
+            }
         }
     }
 }
