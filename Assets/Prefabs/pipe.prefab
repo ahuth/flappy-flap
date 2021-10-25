@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8072390208368101741}
   - component: {fileID: 9185382826294763121}
-  - component: {fileID: 2179876571700172340}
   m_Layer: 0
   m_Name: pipe_gap
   m_TagString: Untagged
@@ -58,18 +57,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2, y: 4}
   m_EdgeRadius: 0
---- !u!114 &2179876571700172340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3050934808132032573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d47e08555004415e8059134dc8355f8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &4325721190290383752
 GameObject:
   m_ObjectHideFlags: 0
